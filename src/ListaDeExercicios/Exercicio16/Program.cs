@@ -13,6 +13,14 @@ internal class Program
          * ...
          * 1 x 10 = 10  2 x 10 = 20  3 x 10 = 30  ...   10 x 10 = 100
          */
-        Console.WriteLine("Hello, World!");
+
+        for (int i = 1; i <= 10; i++)
+        {
+            for (int j = 1; j <= 10; j++)
+            {
+                Console.Write($"{i} x {j} = {i * j}\t");
+            }
+            Console.WriteLine();
+        }
     }
 }

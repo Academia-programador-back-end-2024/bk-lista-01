@@ -5,11 +5,20 @@
         static void Main(string[] args)
         {
             /*
-             * Ordenar três valores inteiros e diferentes em ordem decrescente.
-             * Exemplo de entrada: 5, 10, 3
-             * Exemplo de saída: Os números em ordem decrescente são 10, 5, 3.
+            1. **Gerar e escrever os números ímpares entre 100 e 200.**
+   - Exemplo de saída: 101, 103, 105, ..., 199.
+
              */
-            Console.WriteLine("Hello, World!");
+
+            for (int i = 100; i <= 200; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+
         }
     }
 }
